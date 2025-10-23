@@ -2,11 +2,12 @@
   "name": "server",
   "version": "0.1.0",
   "type": "module",
-  "main": "build/index.js",
+  "main": "build/server.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
+    "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node build/index.js"
+    "start": "node build/server.js",
+    "seed": "tsx src/scripts/seed.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",

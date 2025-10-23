@@ -16,7 +16,8 @@ if (!projectName) {
 }
 
 const targetDir = path.join(process.cwd(), projectName);
-const templateDir = path.join(__dirname, '../templates/fullstack');
+const templateDir = path.join(__dirname, '../templates/back-mongodb');
+
 
 console.log(`🚀 Creando proyecto "${projectName}"...`);
 
