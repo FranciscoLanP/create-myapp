@@ -1,0 +1,8 @@
+{
+  "name": "create-myapp",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "create-myapp": "./bin/create-myapp.js"
+  }
+}
