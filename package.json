@@ -1,8 +1,10 @@
 {
-  "name": "create-myapp",
+  "name": "@franciscolan/create-myapp",
   "version": "1.0.0",
   "type": "module",
   "bin": {
     "create-myapp": "./bin/create-myapp.js"
-  }
+  },
+  "license": "MIT",
+  "description": "Generador de proyectos full-stack (Express + TS + Mongo) con VS Code Debug."
 }
